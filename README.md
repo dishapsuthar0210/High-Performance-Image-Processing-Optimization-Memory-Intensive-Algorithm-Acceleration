@@ -16,7 +16,7 @@ Follow these steps to set up and run the project:
 ```bash
 unix> ./driver
 ```
--Achieved 26.4x speedup for image rotation algorithms through advanced optimization techniques including cache-friendly blocking (32x32 tiles), loop unrolling, pointer arithmetic optimization, and memory access pattern restructuring
--Delivered 68.3x performance improvement for image smoothing operations by implementing case-split boundary handling, eliminating redundant computations, and applying sliding window algorithms for 3x3 convolution kernels
--Optimized memory-intensive C code for real-time image processing operations (90° rotation and Gaussian blur) on square matrices up to 1024x1024 pixels, reducing cycles-per-element (CPE) from 94.5 to 4.4 for rotation and 722 to 10.5 for smoothing
--Applied low-level optimization strategies including cache locality improvements, computational complexity reduction, strength reduction techniques, and eliminated function call overhead through strategic code inlining
+- Achieved 26.4x speedup for image rotation algorithms through advanced optimization techniques including cache-friendly blocking (32x32 tiles), loop unrolling, pointer arithmetic optimization, and memory access pattern restructuring
+- Delivered 68.3x performance improvement for image smoothing operations by implementing case-split boundary handling, eliminating redundant computations, and applying sliding window algorithms for 3x3 convolution kernels
+- Optimized memory-intensive C code for real-time image processing operations (90° rotation and Gaussian blur) on square matrices up to 1024x1024 pixels, reducing cycles-per-element (CPE) from 94.5 to 4.4 for rotation and 722 to 10.5 for smoothing
+- Applied low-level optimization strategies including cache locality improvements, computational complexity reduction, strength reduction techniques, and eliminated function call overhead through strategic code inlining
