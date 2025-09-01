@@ -12,6 +12,6 @@ Follow these steps to set up and run the project:
    ```bash
    unix> make driver
 ---
-   To test your implementations, run:
+5. To test your implementations, run:
 ```bash
 unix> ./driver
